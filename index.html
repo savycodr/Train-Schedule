@@ -53,9 +53,6 @@
       </div>
     </div>
 
-
-
-
     <!-- Row for Adding A Train -->
     <div class="row">
       <div class="col-sm-12">
@@ -86,7 +83,8 @@
               <!-- Here we create the text box for capturing the first train start time  -->
               <div class="form-group">
                 <label for="train-time">First Train Time (HH:mm - Military)</label>
-                <input type="text" class="form-control" id="train-time">
+                <input type="text" class="form-control" id="train-time" >
+                <!-- <input type="time"class="form-control" id="train-time" > -->
               </div>
 
               <!-- Here we create the text box for capturing the  train  frequency  -->
@@ -97,7 +95,10 @@
     
               <!-- Here we have our final submit button -->
               <button type="submit" class="btn btn-default" id="add-train">
-                 Submit</button>
+                 Submit</button>     
+                 
+                 <p id="errorMsg">  </p>
+
 
             </form>
           </div>
