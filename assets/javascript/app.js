@@ -174,3 +174,12 @@ function checkInput(trainObjChk){
   return looksGood;
 };
   
+// Update screen information.  Report new Minutes until next train and next train
+// every minute. This is a screen refresh and it isn't pretty.
+// var intervalId = setInterval(updateTimes, 60*1000);
+
+// // this function updates the information on the screen every minute
+// function updateTimes() {
+//   location.reload();
+// }
+
